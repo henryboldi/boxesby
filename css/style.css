@@ -39,9 +39,15 @@ img
 {
 	text-align: center;
 }
-.chris
+.avatar
 {
 	border-radius: 79px;
+}
+
+.selectedperson div
+{
+	
+	background-color: #eee;
 }
 
 .selectedperson .col-md-3
@@ -57,7 +63,8 @@ img
 
 .aboutbox
 {
-	padding: 2em;
+	margin-top: 2em;
+	background-color: #eee;
 }
 
 .pastBoxes img
