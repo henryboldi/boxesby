@@ -1,0 +1,58 @@
+.logo
+{
+	color: white;
+	font-weight: bold;
+}
+a
+{
+	color: white;
+}
+a:hover
+{
+	color: #04a8e6;
+	text-decoration: none;
+}
+.join
+{
+	color: #04a8e6;
+}
+.join:hover
+{
+	color: white;	
+}
+.title
+{
+	background-image: url(http://i.imgur.com/YIESyTz.jpg);
+}
+.title .col-md-2
+{
+	text-align: center;
+}
+.subheading
+{
+	text-align: center;
+}
+.chris
+{
+	border-radius: 79px;
+}
+
+.selectedperson .col-md-3
+{
+	text-align: center;
+	display: block;
+}
+
+.btn
+{
+	font-size: 1.5em;
+}
+
+.pastBoxes img
+{
+	padding: 1em;
+}
+.pastBoxes
+{
+	text-align: center;
+}
