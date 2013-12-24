@@ -1,13 +1,19 @@
+img
+{
+	padding: 1em;
+}
+
 .logo
 {
 	color: white;
 	font-weight: bold;
+	margin-left: 1em;	
 }
-a
+.headerlinks
 {
 	color: white;
 }
-a:hover
+.headerlinks:hover
 {
 	color: #04a8e6;
 	text-decoration: none;
@@ -22,7 +28,8 @@ a:hover
 }
 .title
 {
-	background-image: url(http://i.imgur.com/YIESyTz.jpg);
+	background: #353b3f url(http://screencloud.net/img/screenshots/c05dd924e1e2c40255429bf4e00edc57.png) no-repeat 0 0;
+	background-position:center;
 }
 .title .col-md-2
 {
@@ -48,6 +55,11 @@ a:hover
 	font-size: 1.5em;
 }
 
+.aboutbox
+{
+	padding: 2em;
+}
+
 .pastBoxes img
 {
 	padding: 1em;
@@ -55,4 +67,47 @@ a:hover
 .pastBoxes
 {
 	text-align: center;
+}
+footer
+{
+	margin-top: 10em;
+}
+footer div
+{
+	padding: 2em;
+	display: inline;
+	background-color: #ccc;	
+}
+footer a
+{
+	text-decoration: none;
+}
+footer ul li:first-child
+{
+	font-weight: bold;
+}
+
+footer ul li:nth-child(2)
+{
+	font-weight: bold;
+	color: #04a8e6;
+}
+footer ul li a
+{
+	color: inherit;
+}
+.copyrightcol li:nth-child(2)
+{
+	
+}
+.redline
+{
+	height: 2em;
+	background-color: #C70D58;
+}
+@media only screen and (max-width: 1086px) {
+    #footer {
+        display: none;
+    }
+
 }
