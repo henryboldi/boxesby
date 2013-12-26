@@ -28,7 +28,8 @@ img
 }
 .title
 {
-	background: #353b3f url(http://screencloud.net/img/screenshots/c05dd924e1e2c40255429bf4e00edc57.png) no-repeat 0 0;
+	background: #353b3f url(../img/background.png) no-repeat 0 0;
+	background-size: cover;
 	background-position:center;
 }
 .title .col-md-2
