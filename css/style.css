@@ -51,7 +51,7 @@ img
 }
 .avatar
 {
-	border-radius: 79px;
+	border-radius:100%;
 }
 
 .selectedperson
@@ -82,10 +82,19 @@ img
 	margin-top: 2em;
 	background-color: #eee;
 }
+.categories
+{
+	background-color: #eee;
+	margin-bottom: 1em;
+}
 .table
 {
 	text-align: center;
 	border: none;
+}
+.table-unstyled
+{
+	border-top: none;
 }
 .pastBoxes img
 {
