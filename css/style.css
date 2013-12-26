@@ -143,8 +143,8 @@ footer ul li a
 }
 .redline
 {
-	height: auto;
-	border-bottom: 4px solid #C70D58;
+	min-width: 100%;
+	border-top: 1em solid #C70D58;
 }
 @media only screen and (max-width: 1086px) {
     #footer {
