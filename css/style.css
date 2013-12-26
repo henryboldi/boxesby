@@ -39,12 +39,22 @@ img
 {
 	text-align: center;
 }
+.tagline
+{
+	text-align: center;
+	color: white;
+}
+.featuredboxes
+{
+	color: white;
+	padding: 1em;
+}
 .avatar
 {
 	border-radius: 79px;
 }
 
-.selectedperson div
+.selectedperson
 {
 	
 	background-color: #eee;
@@ -60,18 +70,32 @@ img
 {
 	font-size: 1.5em;
 }
-
+.viewmore
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
 .aboutbox
 {
 	margin-top: 2em;
 	background-color: #eee;
 }
-
+.table
+{
+	text-align: center;
+	border: none;
+}
 .pastBoxes img
 {
 	padding: 1em;
 }
 .pastBoxes
+{
+	text-align: center;
+}
+.pages
 {
 	text-align: center;
 }
