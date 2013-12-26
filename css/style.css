@@ -86,7 +86,6 @@ img
 .categories
 {
 	background-color: #eee;
-	margin-bottom: 1em;
 }
 .table
 {
@@ -112,12 +111,13 @@ img
 footer
 {
 	margin-top: 10em;
+	background-color: #ccc;	
+	height: auto;
 }
 footer div
 {
 	padding: 2em;
 	display: inline;
-	background-color: #ccc;	
 }
 footer a
 {
@@ -143,8 +143,8 @@ footer ul li a
 }
 .redline
 {
-	height: 2em;
-	background-color: #C70D58;
+	height: auto;
+	border-bottom: 4px solid #C70D58;
 }
 @media only screen and (max-width: 1086px) {
     #footer {
