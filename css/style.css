@@ -98,6 +98,11 @@ img
 {
 	text-align: center;
 }
+.contentarea {
+	padding-bottom: 5em;
+	margin-top: 2em;
+	padding-top: 3em;
+}
 .tagline
 {
 	text-align: center;
