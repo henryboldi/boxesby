@@ -1,15 +1,38 @@
+h3, h4
+{
+	margin: 0;
+}
 img
 {
 	padding: 1em;
 }
 
+.btn
+{
+	border-radius: 10px;
+}
+.btn-info
+{
+	background-color: #00aeef;
+	margin: 1em;
+}
+.price
+{
+	color: #00aeef;
+}
+.homeprice
+{
+	color: white;
+	font-size: 2em;
+}
 .row
 {
 	margin-left: 0;
 	margin-right: 0;
 }
 
-.nav {
+.nav 
+{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;
@@ -47,9 +70,18 @@ img
 	margin-left: 5em;
 	text-align: center;
 }
+.nav-pills
+{
+	float: right;
+}
+.centernav
+{
+	margin-left: auto;
+	margin-right: auto;
+}
 .nav .navlinks
 {
-	text-align: center;
+	text-align: right;
 }
 .subheading
 {
@@ -68,16 +100,20 @@ img
 .featuredboxes .col-md-2
 {
 	text-align: center;
+	/*line-height: 1em;*/
 }
 .avatar
 {
 	border-radius:100%;
 }
-
+.namesubtag
+{
+	color: #bcbbbb;
+}
 .selectedperson
 {
-	
 	background-color: #eee;
+	border-radius: 3px;
 }
 
 .selectedperson .col-md-3
@@ -95,7 +131,6 @@ img
 	display: block;
 	margin: auto;
 	margin-bottom: 2em;
-	margin-top: 2em;
 }
 .aboutbox
 {
