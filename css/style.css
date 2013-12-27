@@ -13,8 +13,12 @@ img
 }
 .btn-info
 {
-	background-color: #00aeef;
+	background-color: #00aeef !important;
 	margin: 1em;
+}
+.order-button
+{
+	margin-bottom: .3em;
 }
 .price
 {
@@ -121,8 +125,11 @@ img
 }
 .selectedperson
 {
-	background-color: #eee;
 	border-radius: 3px;
+}
+.selectedperson *
+{
+	background-color: #eee;
 }
 
 .selectedperson .col-md-3
@@ -145,6 +152,11 @@ img
 {
 	margin-top: 2em;
 	background-color: #eee;
+	padding: 2em;
+}
+.aboutbox h3:nth-child(2)
+{
+	margin-top: 1em;
 }
 .categories
 {
