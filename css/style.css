@@ -3,9 +3,13 @@ img
 	padding: 1em;
 }
 
+.row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
 
 .nav {
-	/*width: 1250px;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;
@@ -17,10 +21,6 @@ img
 	font-size: 1.5em;
 	display: inline-block;
 	margin-top: 20px;
-}
-.borderhere
-{
-	border: 2px solid red;
 }
 .headerlinks:hover
 {
@@ -41,7 +41,13 @@ img
 	background-size: cover;
 	background-position:center;
 }
-.title .col-md-1
+.nav
+{
+	display: block;
+	margin-left: 5em;
+	text-align: center;
+}
+.nav .navlinks
 {
 	text-align: center;
 }
@@ -103,11 +109,6 @@ img
 .table
 {
 	text-align: center;
-	border: none;
-}
-.table-unstyled
-{
-	border-top: none;
 }
 .pastBoxes img
 {
@@ -163,5 +164,8 @@ footer ul li a
     #footer {
         display: none;
     }
-
+	.nav
+	{
+		margin-left: 0 !important;
+	}
 }
