@@ -118,11 +118,36 @@ img
 .featuredboxes .col-md-2
 {
 	text-align: center;
-	/*line-height: 1em;*/
+}
+.featured-box-subtitle
+{
+	color: white;
 }
 .avatar
 {
 	border-radius:100%;
+}
+.curator
+{
+	text-align: center;
+}
+.curator img
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box-subtitle
+{
+	color: black;
+}
+.box-curator
+{
+	color: black;
+}
+.box-price
+{
+	font-size: 1.75em;
 }
 .namesubtag
 {
@@ -136,13 +161,12 @@ img
 {
 	background-color: #eee;
 }
-
-.selectedperson .col-md-3
+.selectedperson img
 {
-	text-align: center;
 	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
-
 .btn
 {
 	font-size: 1.5em;
@@ -220,6 +244,10 @@ footer ul li a
 {
 	min-width: 100%;
 	border-top: 1em solid #C70D58;
+}
+.borderhere
+{
+	border: 2px red solid
 }
 @media only screen and (max-width: 1086px) {
     #footer
