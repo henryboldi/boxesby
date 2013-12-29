@@ -41,30 +41,19 @@ img
 	margin-right: 0;
 }
 .nav-pills a {
-	color: black;
+	color: #34353b;
 }
 .nav-pills > li > a:hover {
-    background-color: rgb(66, 139, 202);
+   background-color: #04a8e6;
+   color: white;
 }
-.headerlinks
+.selected
+{
+	background-color: #04a8e6;
+}
+.selected a
 {
 	color: white;
-	font-size: 1.5em;
-	display: inline-block;
-	margin-top: 20px;
-}
-.headerlinks:hover
-{
-	color: #04a8e6;
-	text-decoration: none;
-}
-.join
-{
-	color: #04a8e6;
-}
-.join:hover
-{
-	color: white;	
 }
 .title
 {
@@ -196,8 +185,8 @@ img
 .viewmore
 {
 	display: block;
-	margin: auto;
-	margin-bottom: 2em;
+	margin: 1em auto;
+	margin-bottom: 3em;
 }
 .aboutbox
 {
