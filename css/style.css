@@ -17,6 +17,32 @@ img
 {
 	padding: 1em;
 }
+a:hover
+{
+	text-decoration: none;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+	/* IE 5-7 */
+	filter: alpha(opacity=80);
+
+	/* Netscape */
+	-moz-opacity: 0.8;
+
+	/* Safari 1.x */
+	-webkit-opacity: 0.8;
+	
+	/*Opera*/
+	-o-opacity:0.8;
+	/* Good browsers */
+	opacity: 0.8;
+	
+	-webkit-transition: 1.5s ease;
+	-moz-transition: 1.5s ease;
+	-o-transition: 1.5s ease;
+	-ms-transition: 1.5s ease;
+	transition: 1.5s ease;
+}
 .btn
 {
 	border-radius: 0;
