@@ -17,6 +17,10 @@ img
 {
 	padding: 1em;
 }
+.btn
+{
+	border-radius: 0;
+}
 .btn-info
 {
 	background-color: #00aeef !important;
