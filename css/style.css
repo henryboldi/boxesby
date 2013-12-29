@@ -255,7 +255,7 @@ a:hover
 footer
 {
 	margin-top: 10em;
-	background-color: #ccc;	
+	background-color: #eee;	
 	height: auto;
 }
 footer div
@@ -265,17 +265,23 @@ footer div
 }
 footer a
 {
+	color: #34353b;
 	text-decoration: none;
 }
 footer ul li:first-child
 {
+
 	font-weight: bold;
 }
 
 footer ul li:nth-child(2)
 {
 	font-weight: bold;
-	color: #04a8e6;
+	color: #1fb7cf;
+}
+.made-with-love
+{
+	font-weight: normal !important;
 }
 footer ul li a
 {
@@ -283,12 +289,12 @@ footer ul li a
 }
 .copyrightcol li:nth-child(2)
 {
-	
+	color: #34353b;
 }
-.redline
+.footer-logo
 {
-	min-width: 100%;
-	border-top: 1em solid #C70D58;
+	display: block;
+	margin: 0 auto;
 }
 .borderhere
 {
