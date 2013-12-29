@@ -153,6 +153,11 @@ img
 {
 	color: #bcbbbb;
 }
+.table-responsive
+{
+	padding-left: 6em;
+	padding-right: 6em;
+}
 .selectedperson
 {
 	border-radius: 3px;
@@ -202,6 +207,10 @@ img
 .pastBoxes
 {
 	text-align: center;
+}
+.pastboxes-captions
+{
+	text-align: center;	
 }
 .pages
 {
