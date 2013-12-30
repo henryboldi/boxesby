@@ -310,7 +310,6 @@ footer ul li a
 		margin-left: 0 !important;
 	}
 }
-
 @media only screen and (max-width: 1150px) {
 	.centernav
 	{
@@ -318,4 +317,53 @@ footer ul li a
     margin: 0 auto;
     width: 90%;
 	}
+}
+
+/* Victor's Edits */
+img.avatar
+{
+    margin-top: 10px;
+    padding: 4px;
+    background: linear-gradient(white,lightGray);
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+img.avatar:hover
+{
+	box-shadow: 0 0 12px rgba(0,100,255,.5);
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+div.description
+{
+    margin-top: 20px;
+    padding: 4px;
+    position: relative;
+}
+div.row.featuredboxes div.description
+{
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+    color: white;
+    border-radius: 4px;
+}
+div.row.featuredboxes div.description:before
+{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0,0,0,.6);
+    top: -20px;
+    left: 45%;
+}
+div.row.featuredboxes div.description h3.featured-box-subtitle{
+	color: white;
+	line-height: 1.2em;
+	margin: 12px 0px;
 }
